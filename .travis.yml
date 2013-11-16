@@ -1,0 +1,7 @@
+language: scala
+
+script:
+  - ./success.sh
+  - git clean -fdx
+  - ./failure.sh
+
